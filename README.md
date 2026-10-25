@@ -52,17 +52,6 @@ As respostas são JSON. Uma rejeição não deve alterar o estoque. Duas reserva
 ## Limites do exemplo
 
 O SQLite é temporário e fica em memória durante cada teste. A API de pedidos não persiste pedidos; confirma a reserva e retorna um identificador. Não há autenticação, pagamento, retentativas, idempotência ou transação distribuída. A suíte cobre o contrato descrito e não demonstra prontidão para produção.
-
-## Publicação no GitHub
-
-Os arquivos foram preparados localmente. Após criar um repositório vazio no GitHub, execute na raiz, substituindo o endereço pelo seu:
-
-```sh
-git init
-git add .
-git commit -m "Adiciona experimento de prompts e testes de integração"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
 git push -u origin main
 ```
 
